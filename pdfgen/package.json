@@ -1,0 +1,48 @@
+{
+  "name": "pdf-generation",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings ./bin/www",
+    "prepare": "husky install"
+  },
+  "@comment dependencies": [
+    "Other dependencies that are required on the host system",
+    "1. Redis",
+    "2. Open JDK",
+    "3. pdftk 2.02"
+  ],
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "bull": "^3.26.0",
+    "bull-board": "^2.1.3",
+    "chalk": "^4.1.1",
+    "cookie-parser": "~1.4.5",
+    "debug": "^4.3.2",
+    "easy-pdf-merge": "^0.2.6",
+    "express": "^4.17.1",
+    "file-type": "^16.5.2",
+    "find-remove": "^3.1.0",
+    "http-errors": "^1.8.0",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "morgan": "~1.10.0",
+    "node-pdftk": "^2.1.3",
+    "pdf-lib": "^1.16.0",
+    "pdf2json": "^1.2.3",
+    "pdf2pic": "^2.1.4",
+    "pdfkit": "^0.12.1",
+    "pretty-error": "^3.0.4",
+    "prettyjson": "^1.2.1",
+    "puppeteer": "^10.1.0",
+    "request": "^2.88.2",
+    "serialize-error": "^8.1.0",
+    "shelljs": "^0.8.4",
+    "stream-to-promise": "^3.0.0",
+    "url-parse": "^1.5.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0"
+  }
+}

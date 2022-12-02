@@ -1,0 +1,32 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jquery": true
+  },
+  "parserOptions": {
+  "ecmaVersion": 8
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "$app": true,
+    "gridster": true
+  },
+  "rules": {
+    "no-console": 0,
+    "indent": 0,
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

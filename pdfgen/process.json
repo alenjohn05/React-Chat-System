@@ -1,0 +1,18 @@
+{
+  "apps": [{
+      "exec_mode": "fork_mode",
+      "script": "./bin/www.js",
+      "name": "pdf-generation",
+      "env": {
+        "PORT": 3000,
+        "NODE_ENV": "production"
+      },
+      "args": [
+        "--color"
+      ],
+      "error_file": "./logs/pdf-generation.err.log",
+      "out_file": "./logs/pdf-generation.out.log",
+      "watch": ["bin", "routes", "app.js"]
+    }
+  ]
+}
